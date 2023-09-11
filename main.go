@@ -36,6 +36,7 @@ func main() {
 			minPoint, _ := posA.ClosestPointOnLine(start, end)
 			geo.Distance3D(posA, minPoint)
 		}()
+
 	}
 	wg.Wait()
 
